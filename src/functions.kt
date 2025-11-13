@@ -18,6 +18,12 @@ fun main() {
 
     add(45,90)
 
+    println()
+
+    dog("Tito", "German Shepherd", 2)
+    dog("Asanted", "Greyhound", 3)
+    dog("Nwito", "Matt", 5)
+
 }
 // 2. User-defined Functions
 
@@ -32,4 +38,8 @@ fun student (name: String, age: Int, course: String) {
 
 fun add (num1: Int, num2: Int) {
     println(num1+num2)
+}
+
+fun dog(name: String, breed: String, age: Int){
+    println(name + " " + breed + " "+ age)
 }
